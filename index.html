@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart - Event Planner</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../enhanced-styles.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-links">
+            <a href="../index.html">Home</a>
+            <a href="../index.html#events">Events</a>
+            <a href="../index.html#packages">Packages</a>
+            <a href="../index.html#contact">Contact</a>
+            <a href="#" id="nav-cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="nav-cart-count">0</span>
+            </a>
+        </nav>
+    </header>
+
+    <main class="cart-page">
+        <div class="container">
+            <h1>Your Shopping Cart</h1>
+            <div class="cart-content">
+                <div id="cart-items">
+                    <!-- Cart items will be displayed here -->
+                </div>
+                <div class="cart-summary">
+                    <div class="cart-total">
+                        <p>Total: <span id="cart-total-amount">$0</span></p>
+                    </div>
+                    <div class="cart-actions">
+                        <button class="btn secondary-btn" id="continue-shopping-btn">Continue Shopping</button>
+                        <button class="btn primary-btn" id="checkout-btn">Proceed to Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+    <script src="../navigation.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html> 
