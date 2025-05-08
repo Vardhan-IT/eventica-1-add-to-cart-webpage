@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <p>Your cart is empty.</p>
                 </div>
             `;
-            cartTotalAmount.textContent = '$0';
+            cartTotalAmount.textContent = '0 RS';
             navCartCount.textContent = '0';
             return;
         }
